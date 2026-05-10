@@ -68,7 +68,7 @@ header nav .desktop-nav-links{
     max-width:12rem;
     height: calc(100vh - 4.5rem);
     padding: 2rem 1rem;
-    display: none;
+    display: flex;
     flex-direction: column;
     gap: 0.5rem;
 
@@ -437,10 +437,10 @@ input::placeholder{
     gap: 1.5rem;
 }
 
-.socials a{
-    font-size: 2rem;
+.socials i{
     background-color: #F9F9F9;
     border-radius: 0.5rem;
+    padding: 0.5rem;
 }
 
 
